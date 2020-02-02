@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta cha rset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejercicio 9</title>
+    <script src="programa.js">
+    </script>
+    <script>
+        function miFuncion1() {
+            alert("Hola Desde Funcion 1");
+        }
+    </script>
+</head>
+
+<body>
+    <button onclick="miFuncion1();"> Ejecutar Funcion 1 </button>
+    <br>
+    <button onclick="miFuncion2('Carlos');"> Ejecutar Funcion 2 </button>
+    <br>
+    <label>Proporciona tu nombre y da enter: </label>
+    <input type="text" name="nombre" onchange="mostrarNombre(this);"></input>
+</body>
+</html>
